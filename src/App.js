@@ -21,7 +21,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Learn React version 2
           </a>
         </header>
       </div>
