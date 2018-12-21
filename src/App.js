@@ -6,15 +6,6 @@ import "./App.css";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      response: "Loading.."
-    };
-  }
-  componentDidMount() {
-    axios
-      .get("/api/")
-      .then(res => this.setState({ response: res.data }))
-      .catch(err => this.setState({ response: err }));
   }
   render() {
     return (
@@ -32,7 +23,6 @@ class App extends Component {
           >
             Learn React
           </a>
-          <p>Response is {this.state.response}</p>
         </header>
       </div>
     );
