@@ -21,7 +21,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React version 2
+            Learn React version 2 only restart
           </a>
         </header>
       </div>
